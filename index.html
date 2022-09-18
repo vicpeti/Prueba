@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reserva</title>
+</head>
+<body>
+    <h1>Hace tu Reserva</h1>
+    
+    <div>
+        <form action="mostrar_datos.html" target="_blank">
+
+        <label for="Suc_for">Sucursal: </label>
+        <select name="Surusal" id="Suc_for">
+            <option value="Palermo">Palermo</option>
+            <option value="Zona Norte">Zona Norte</option>
+        </select>
+       <br><br>
+
+       <label for="suc">Sursal: </label>
+       <br>
+       Palermo <input type="Radio" name="Suc" id="suc_Pal" value="Palermo">
+       <br>
+        Zona Norte <input type="Radio" name="Suc" id="suc_Nor" value="norte">
+      
+
+        <br><br>
+
+
+       <label for="Com_for">Comensales: </label>
+       <select name="Comensales" id="Com_for" placeholder="Seleccione Sucursal">
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
+       </select>
+        <br><br>
+       
+        <label for="Fecha_form">Fecha: </label>
+        <input type="date" name="Fecha" id="Fecha_form">
+        <br><br>
+
+        <label for="Hor_for">Servicio-Horario:</label>
+        <select name="Horario" id="Com_for" placeholder="Seleccione Sucursal">
+            <option value="1">Almuerzo - 12 hs. </option>
+            <option value="3">Almuerzo - 13 hs. </option>
+            <option value="4">Almuerzo - 14 hs. </option>
+            <option value="5">Cena - 20 hs. </option>
+            <option value="6">Cena - 21 hs. </option>
+            <option value="7">Cena - 22 hs. </option>
+            
+        </select>
+         <br><br>
+    
+        
+        <label for="Nom_for">Nombre: </label>
+        <input type="text" name="Nombre" id="Nom_for">
+        <br><br>
+        <label for="Ape_for">Apellido: </label>
+        <input type="text" name="Apellido" id="Ape_for">
+        <br><br>
+        <label for="Tel_for">Tel.: </label>
+        <input type="tel" name="Tel" id="Tel_for">
+        <br><br>
+        <label for="Email_for">Email: </label>
+        <input type="email" name="Mail" id="Mail_for">
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+        </form>
+
+    
+    </div>
+
+</body>
+</html> 
